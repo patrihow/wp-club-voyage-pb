@@ -19,8 +19,12 @@
         'container' => false,
     ));
     ?>
-    <aside>
-        <label for="navigation__recherche" class="navigation__recherche">Recherche</label>
-        <input type="search" autocomplete="on" id="navigation__recherche" placeholder="Voyage...">
-    </aside>
+    <form role="search" method="get" class="search-form" action="<?php echo home_url('/'); ?>">
+        <label>
+            <span class="screen-reader-text"><?php echo _x('Search for:', 'label') ?></span>
+            <input type="search" class="search-field" placeholder="<?php echo esc_attr_x('Rechercher des destinations...', 'placeholder') ?>" value="<?php echo get_search_query() ?>" name="s" />
+        </label>
+        <button type="submit" class="search-submit"><?php echo esc_html_x('Search', 'submit button') ?></button>
+    </form>
+
 </nav>
