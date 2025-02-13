@@ -1,0 +1,8 @@
+/* ----------------------------------
+_grille.scss
+-----------------------------------*/
+.grille {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(40ch, 1fr));
+	gap: var(--spacing-thin);
+}

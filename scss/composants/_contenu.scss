@@ -1,0 +1,57 @@
+
+/* ----------------------------------
+_contenu.scss
+-----------------------------------*/
+.contenu {
+    background-color: #fff;
+}
+.contenu__liens {
+    overflow-x: auto;
+    padding: 5rem 4rem 1rem 4rem;
+	padding-bottom: var(--spacing-thin);
+	margin-left: 0;
+	margin-right: 0;
+	min-width: 100%;
+	box-sizing: border-box;
+}
+.contenu__liens>ul {
+    display: flex;
+    min-width: max-content;
+    padding: 0;
+}
+.contenu__liens>ul>li {
+    height: var(--spacing-largest);
+	width: var(--spacing-large);
+	background-color: var(--secondary);
+	color: var(--accent);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding: 1rem var(--spacing-thinner);
+	flex-shrink: 0;
+	flex-grow: 1;
+	border-radius: var(--radius-sharp);
+    font-family: var(--font-base);
+    font-size: 1.8rem;
+}
+.contenu__liens>ul>li+li {
+	margin-left: var(--spacing-thin);
+}
+.contenu__liens * {
+	color: inherit;
+	text-decoration: none;
+	font-weight: 500;
+}
+.contenu__liens a[href]:hover {
+    color: var(--primary);
+}
+.contenu__titre {
+    font-family: var(--font-alt);
+    font-size: 3.5rem;
+    color: var(--darking);
+}
+.contenu__textes {
+    font-family: var(--font-base);
+    color: var(--primary);
+    font-size: 1.5rem;
+}

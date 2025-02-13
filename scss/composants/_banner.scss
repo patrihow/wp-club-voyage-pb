@@ -1,0 +1,36 @@
+/* ----------------------------------
+_bannner.scss
+-----------------------------------*/
+.banner {
+	background-color: #BCC79D;
+	color: #282725;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+    min-height: 300px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    position: relative;
+    mix-blend-mode: multiply;
+}
+.banner a {
+    text-decoration: none;
+    background-color: #fff;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    border-radius: 5px;
+}
+h2 {
+    font-size: 3rem;
+    color: #3E4929;
+}
+.banner p {
+    font-size: 2rem;
+}
+.banner a, p {
+    font-family: var(--font-base);
+    color: #282725;
+}
+

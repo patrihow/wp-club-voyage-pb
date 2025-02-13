@@ -1,0 +1,43 @@
+  /* ----------------------------------
+_animations.scss
+-----------------------------------*/
+
+/* Animation titres Hero */
+
+@keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-99px);
+  
+    }
+  
+    80% {
+      transform: translateX(10px);
+  
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translate(0);
+  
+    }
+  }
+  
+  @keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(99px);
+  
+    }
+  
+    80% {
+      transform: translateX(-10px);
+  
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translate(0);
+  
+    }
+  }

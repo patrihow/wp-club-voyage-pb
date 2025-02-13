@@ -1,0 +1,61 @@
+
+/* ----------------------------------
+_footer.scss
+-----------------------------------*/
+
+.pied-de-page {
+
+	display: flex;
+	padding: var(--spacing-thin);
+	align-items: center;
+    font-family: var(--font-base);
+    border-top: #BCC79D 1px solid;
+}
+.pied-de-page h2 {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.pied-de-page>nav>ul {
+	column-count: 4;
+    text-align: left;
+    
+}
+
+.pied-de-page>nav>ul {
+	margin: 0;
+}
+
+.pied-de-page>nav>ul>* {
+	display: inline-block;
+	min-width: 100%;
+}
+
+.pied-de-page>nav a {
+	display: inline-block;
+	padding: var(--spacing-nano) 0;
+    font-size: 1.5rem;
+}
+.pied-de-page>nav a:hover {
+    color: #F07450;
+}
+
+.pied-de-page>nav {
+	max-width: var(--dimension-small);
+	margin-right: var(--spacing-thin);
+}
+
+.pied-de-page>a {
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	align-items: center;
+}
+
+.pied-de-page>a>*+* {
+	margin-top: var(--spacing-thinnest);
+}
+.pied-de-page__legal {
+    display: flex;
+    flex-direction: column;
+}

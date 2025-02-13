@@ -1,0 +1,47 @@
+
+/* ----------------------------------
+_cartes.scss
+-----------------------------------*/
+.cartes {
+    padding: 1rem 3rem 4rem 3rem;
+}
+.cartes p {
+    font-size: 1.8rem;
+}
+.cartes h3 {
+    font-size: 1.5rem;
+    font-family: var(--font-base);
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #F07450;
+}
+.cartes a {
+    text-decoration: none;
+    color: #282725;
+    font-size: 1.2rem;
+    font-family: var(--font-base);
+    font-weight: 700;
+}
+.cartes a:hover {
+    color: #F07450;
+}
+.carte * {
+	margin: 0;
+}
+
+.carte *+* {
+	margin-top: var(--spacing-thinner);
+}
+
+.carte>header+p {
+	margin-top: var(--spacing-thinnest);
+}
+
+.carte a {
+	display: inline-block;
+}
+.carte img {
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+}

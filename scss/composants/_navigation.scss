@@ -1,0 +1,59 @@
+/* ----------------------------------
+_navigation.scss
+-----------------------------------*/
+.navigation {
+	display: flex;
+	align-items: center;
+    top: 0;
+    z-index: 9;
+    font-family: var(--font-base);
+    padding: 1.5rem 2rem 0 2rem;
+}
+
+.navigation>ul {
+	display: flex;
+	font-weight: 600;
+	font-size: var(--font-short);
+	color: var(--primary);
+
+	flex-grow: 1;
+	margin-left: var(--spacing-thin);
+	padding: 0 var(--spacing-micro);
+	gap: var(--spacing-thin);
+}
+.navigation span {
+    font-size: var(--font-short);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.navigation input {
+    max-width: var(--dimension-tinier);
+    border: var(--border-slimmest) solid var(--veil);
+}
+.navigation>a:hover,
+.navigation a[href]:hover {
+    color: var(--accent);
+}
+.navigation>ul>li:not(:hover),
+.navigation>ul>li:not(:hover)>ul {
+    transition-delay: var(--duration-medium);
+}
+.navigation>ul>li:hover,
+.navigation>ul>li:hover>ul {
+    transition-delay: 0ms;
+}
+.navigation>ul>li:not(:hover)>ul {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-100%);
+}
+.navigation>ul>li>ul a {
+    transition-delay: 0ms;
+}
+.navigation>ul>li:not(:hover) a {
+    transition-delay: var(--duration-fast);
+}
+.navigation>ul ul>li+li {
+    margin-top: var(--spacing-thinnest);
+}
