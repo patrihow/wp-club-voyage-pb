@@ -22,6 +22,32 @@ if ( ! function_exists( 'twentytwentyfive_post_format_setup' ) ) :
 		add_theme_support( 'post-formats', array( 'aside', 'audio', 'chat', 'gallery', 'image', 'link', 'quote', 'status', 'video' ) );
 	}
 endif;
+
+////////////////////////////////////////////////////////////////////////////
+// Ma fonction pour le thème Club de Voyage
+if ( ! function_exists( 'club_de_voyage_setup' ) ) :
+    /**
+     * Configure les paramètres du thème et enregistre le support pour diverses fonctionnalités de WordPress.
+     *
+     * @since Club de Voyage 1.0
+     *
+     * @return void
+     */
+    function club_de_voyage_setup() {
+        // Support pour les images 
+        add_theme_support( 'post-thumbnails' );
+
+        // Menus de navigation
+        register_nav_menus( array(
+            'main-menu' => __( 'Menu Principal', 'club-de-voyage' ),
+            'footer-menu' => __( 'Menu Pied de Page', 'club-de-voyage' ),
+        ) );
+    }
+endif; // club_de_voyage_setup
+add_action( 'after_setup_theme', 'club_de_voyage_setup' );
+// Fin de ma fonction club_de_voyage_setup()
+////////////////////////////////////////////////////////////////////////////
+
 add_action( 'after_setup_theme', 'twentytwentyfive_post_format_setup' );
 
 // Enqueues editor-style.css in the editors.

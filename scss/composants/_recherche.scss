@@ -1,9 +1,25 @@
 /* ----------------------------------
 _recherche.scss
 -----------------------------------*/
+/* ----------------------------------
+_recherche.scss
+-----------------------------------*/
 .navigation__recherche {
     font-family: var(--font-base);
     font-weight: 500;
     font-size: var(--font-short);
     padding-right: 1rem;
+}
+
+aside {
+    display: flex; 
+    align-items: center; 
+}
+
+input[type="search"] {
+    padding: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-family: var(--font-base); 
+    font-size: var(--font-short); 
 }
