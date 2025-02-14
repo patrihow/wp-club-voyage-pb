@@ -23,23 +23,24 @@ Création des catégories pour chaque destination :
 1. ✅ Activation du thème et intégration de SASS  
 2. ✅ Création des fichiers de base du thème et intégration des styles SASS *(branch: dev-tp1)*  
 3. ✅ Création de la page **front-page.php**, ajout des catégories et intégration dans la page  
-4. 🛠 **[EN COURS]** Ajustement du footer et correction des problèmes d'affichage et d'intégration  
-5. 🔄 Mise en place de la galerie d’images  
-6. 🔄 Développement de la section **"Destinations populaires"** sous forme de galerie  
-7. 🔄 Correction des problèmes d'affichage des pages d’archives par catégorie  
-8. 🔄 Ajustements de la page **front-page.php**  
-9. 🔄 Correction des problèmes sur la page de résultats de recherche  
-10. 🚀 Optimisation du code et des performances générales  
-11. 🎨 Tests et ajustements UI/UX  
-12. 🐛 Correction des éventuels bugs dans les méthodes PHP  
-13. ♿ Vérification de l’accessibilité et de la compatibilité multi-appareils  
-14. ✅ Validation interne du design final  
-15. 📦 Préparation au déploiement  
-16. 🚀 Déploiement sur **WHC**  
-17. 🔄 Tests en production et ajustements finaux  
-18. 🔗 Vérification des liens et fonctionnalités  
-19. 📝 Documentation et mise à jour du README  
-20. 🎉 Dernière validation avec le professeur et livraison  
+4. ✅ Ajustement de la méthode `have_posts()` : `while (have_posts()) : the_post()` et adaptation à mon fichier `front-page.php` afin d'afficher les catégories créées précédemment.
+5. 🛠 **[EN COURS]** Ajustement du footer et correction des problèmes d'affichage et d'intégration  
+6. 🔄 Mise en place de la galerie d’images  
+7. 🔄 Développement de la section **"Destinations populaires"** sous forme de galerie  
+8. 🔄 Correction des problèmes d'affichage des pages d’archives par catégorie  
+9. 🔄 Ajustements de la page **front-page.php**  
+10. 🔄 Correction des problèmes sur la page de résultats de recherche  
+11. 🚀 Optimisation du code et des performances générales  
+12. 🎨 Tests et ajustements UI/UX  
+13. 🐛 Correction des éventuels bugs dans les méthodes PHP  
+14. ♿ Vérification de l’accessibilité et de la compatibilité multi-appareils  
+15. ✅ Validation interne du design final  
+16. 📦 Préparation au déploiement  
+17. 🚀 Déploiement sur **WHC**  
+18. 🔄 Tests en production et ajustements finaux  
+19. 🔗 Vérification des liens et fonctionnalités  
+20. 📝 Documentation et mise à jour du README  
+21. 🎉 Dernière validation avec le professeur et livraison  
 
 ---
 
