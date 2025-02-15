@@ -46,6 +46,11 @@ if ( ! function_exists( 'club_de_voyage_setup' ) ) :
 endif; // club_de_voyage_setup
 add_action( 'after_setup_theme', 'club_de_voyage_setup' );
 // Fin de ma fonction club_de_voyage_setup()
+
+function add_font_awesome() {
+    wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+}
+add_action('wp_enqueue_scripts', 'add_font_awesome');
 ////////////////////////////////////////////////////////////////////////////
 
 add_action( 'after_setup_theme', 'twentytwentyfive_post_format_setup' );

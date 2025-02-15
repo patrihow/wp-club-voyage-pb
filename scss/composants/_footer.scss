@@ -59,3 +59,17 @@ _footer.scss
     display: flex;
     flex-direction: column;
 }
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #333; 
+}
