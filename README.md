@@ -24,8 +24,8 @@ Création des catégories pour chaque destination :
 2. ✅ Création des fichiers de base du thème et intégration des styles SASS *(branch: dev-tp1)*  
 3. ✅ Création de la page **front-page.php**, ajout des catégories et intégration dans la page  
 4. ✅ Ajustement de la méthode `have_posts()` : `while (have_posts()) : the_post()` et adaptation à mon fichier `front-page.php` afin d'afficher les catégories créées précédemment.
-5. 🛠 **[EN COURS]** Ajustement du footer et correction des problèmes d'affichage et d'intégration  
-6. 🔄 Mise en place de la galerie d’images  
+5. ✅ Ajustement du footer et correction des problèmes d'affichage et d'intégration  
+6. 🛠 **[EN COURS]** Mise en place de la galerie d’images  
 7. 🔄 Développement de la section **"Destinations populaires"** sous forme de galerie  
 8. 🔄 Correction des problèmes d'affichage des pages d’archives par catégorie  
 9. 🔄 Ajustements de la page **front-page.php**  
