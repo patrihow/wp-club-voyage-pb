@@ -25,8 +25,9 @@ Création des catégories pour chaque destination :
 ✅ Création de la page front-page.php, ajout des catégories et intégration dans la page
 ✅ Ajustement de la méthode have_posts() : while (have_posts()) : the_post(); et adaptation à front-page.php pour afficher les catégories créées précédemment
 ✅ Correction des problèmes d'intégration de la méthode have_posts() dans front-page.php
-🛠 [EN COURS] Ajustement du footer et correction des problèmes d'affichage et d'intégration
-🔄 Mise en place de la galerie d’images
+✅ Ajustement du footer et correction des problèmes d'affichage et d'intégration
+✅ Mise en place du code HTML dans **front-page.php** pour ma galerie d’images.
+🛠 [EN COURS] Mise en place de la galerie d’images
 🔄 Développement de la section "Destinations populaires" sous forme de galerie
 🔄 Correction des problèmes d'affichage des pages d’archives par catégorie
 🔄 Ajustements de la page front-page.php
