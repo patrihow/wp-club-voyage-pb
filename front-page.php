@@ -49,8 +49,25 @@
     <!-- Galerie des images -->
     <section class="galerie full-bleed">
         <h2>Notre Galerie</h2>
-        <?php echo do_shortcode('[gallery ids="1,2,3,4"]'); ?> 
+        <div class="grille"> 
+            <figure class="wp-block-image size-large">
+                <img src="http://localhost/wp_club-voyage/wp-content/uploads/2025/02/pexels-david-bartus-43782-586687-1.jpg" alt="" class="wp-image-78"/>
+            </figure>
+            <figure class="wp-block-image size-large">
+                <img src="http://localhost/wp_club-voyage/wp-content/uploads/2025/02/pexels-vince-2265876-1.jpg" alt="" class="wp-image-79"/>
+            </figure>
+            <figure class="wp-block-image size-large">
+                <img src="http://localhost/wp_club-voyage/wp-content/uploads/2025/02/pexels-ekrulila-2218344-1.jpg" alt="" class="wp-image-75"/>
+            </figure>
+            <figure class="wp-block-image size-large">
+                <img src="http://localhost/wp_club-voyage/wp-content/uploads/2025/02/pexels-quang-nguyen-vinh-222549-2178175-1.jpg" alt="" class="wp-image-76"/>
+            </figure>
+            <figure class="wp-block-image size-large">
+                <img src="http://localhost/wp_club-voyage/wp-content/uploads/2025/02/pexels-apasaric-1285625-1.jpg" alt="" class="wp-image-77"/>
+            </figure>
+        </div>
     </section>
+
 </section>
 
 </main>
