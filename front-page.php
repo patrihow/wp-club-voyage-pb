@@ -45,21 +45,14 @@
             <?php endwhile; endif; ?>
         </div>
     </section>
-
-    <section class="cartes full-bleed">
-    <h2>Osez découvrir le monde autrement en vivant des expériences uniques et insolites</h2>
-    <p>En couple ou en famille ? Pour un trekking ou un safari ? Plutôt culture ou aventure ? Découvrez plus de 8000 idées de voyage sélectionnées par nos agences locales spécialisées.</p>
-    <a href="#">Voir toutes nos thématiques</a>
-    <div class="grille">
-    <article class="carte">
-        <header>
-            <img src="#" alt="">
-        </header>
-        </article>
-
-    </div>
-
+    
+    <!-- Galerie des images -->
+    <section class="galerie full-bleed">
+        <h2>Notre Galerie</h2>
+        <?php echo do_shortcode('[gallery ids="1,2,3,4"]'); ?> 
     </section>
+</section>
+
 </main>
 
 <?php get_footer(); ?>
