@@ -47,27 +47,27 @@
     </section>
     
     <!-- Galerie des images -->
-    <section class="galerie full-bleed">
-        <h2>Notre Galerie</h2>
-        <div class="grille"> 
-            <figure class="wp-block-image size-large">
-                <img src="http://localhost/wp_club-voyage/wp-content/uploads/2025/02/pexels-david-bartus-43782-586687-1.jpg" alt="" class="wp-image-78"/>
-            </figure>
-            <figure class="wp-block-image size-large">
-                <img src="http://localhost/wp_club-voyage/wp-content/uploads/2025/02/pexels-vince-2265876-1.jpg" alt="" class="wp-image-79"/>
-            </figure>
-            <figure class="wp-block-image size-large">
-                <img src="http://localhost/wp_club-voyage/wp-content/uploads/2025/02/pexels-ekrulila-2218344-1.jpg" alt="" class="wp-image-75"/>
-            </figure>
-            <figure class="wp-block-image size-large">
-                <img src="http://localhost/wp_club-voyage/wp-content/uploads/2025/02/pexels-quang-nguyen-vinh-222549-2178175-1.jpg" alt="" class="wp-image-76"/>
-            </figure>
-            <figure class="wp-block-image size-large">
-                <img src="http://localhost/wp_club-voyage/wp-content/uploads/2025/02/pexels-apasaric-1285625-1.jpg" alt="" class="wp-image-77"/>
-            </figure>
-        </div>
-    </section>
+    
+<section class="cartes full-bleed">
+    <h2>Notre Galerie</h2>
+    <p>En couple ou en famille ? Pour un trekking ou un safari ? Plutôt culture ou aventure ? Découvrez plus de 8000 idées de voyage sélectionnées par nos agences locales spécialisées.</p>
+    <div class="grille"> 
+    <?php
+    $galerie_id = 83; 
 
+    
+    $galerie_page = get_post($galerie_id); 
+
+    if ($galerie_page) {
+        
+        
+        echo apply_filters('the_content', $galerie_page->post_content);
+    } else {
+        echo '<h2>Galería no encontrada</h2>'; 
+    }
+    ?>
+    </div>
+</section>
 </section>
 
 </main>
