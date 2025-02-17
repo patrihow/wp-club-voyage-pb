@@ -35,7 +35,7 @@
                 <article class="carte">
                     <header>
                         <?php if (has_post_thumbnail()) { ?>
-                            <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="image-mise-en-avant"> <!-- Image mise en avant -->
+                            <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="image-mise-en-avant"> 
                         <?php } ?>
                         <h3><?php the_title(); ?></h3>
                     </header>
@@ -63,7 +63,7 @@
         
         echo apply_filters('the_content', $galerie_page->post_content);
     } else {
-        echo '<h2>Galería no encontrada</h2>'; 
+        echo '<h2>Galerie non trouvée</h2>'; 
     }
     ?>
     </div>
