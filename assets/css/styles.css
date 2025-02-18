@@ -222,10 +222,8 @@ aside {
   display: flex;
   align-items: center;
   gap: var(--spacing-thinner);
-  border: var(--border-slimmest) solid var(--darking);
   border-radius: var(--radius-sharp);
   padding: var(--spacing-thinnest);
-  background-color: var(--tertiary);
 }
 
 input[type=search] {
@@ -235,7 +233,7 @@ input[type=search] {
   border-radius: var(--radius-sharp);
   font-family: var(--font-base);
   font-size: var(--font-short);
-  background-color: var(--secondary);
+  background-color: var(--color-plus-clair);
   color: var(--primary);
   outline: none;
 }
@@ -246,7 +244,7 @@ input[type=search] {
   font-weight: 600;
   font-family: var(--font-base);
   background-color: var(--accent);
-  color: var(--lighting);
+  color: white;
   border: none;
   border-radius: var(--radius-sharp);
   cursor: pointer;
@@ -571,6 +569,7 @@ Language.css
   --darking: rgba(49, 92, 82, 1);
   --darkering: rgba(186, 154, 31, 1);
   --lighting: rgba(240, 116, 80, 0.8);
+  --color-plus-clair: rgb(255, 249, 245);
   --accent: rgb(218, 84, 47);
   --special: rgba(186, 154, 31, 1);
   --veil: rgba(0, 0, 0, 0.6);
