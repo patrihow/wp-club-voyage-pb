@@ -41,7 +41,7 @@ input[type="search"] {
     font-size: var(--font-short);
     font-weight: 600;
     font-family: var(--font-base);
-    background-color: var(--darkering);
+    background-color: var(--accent);
     color: var(--lighting);
     border: none;
     border-radius: var(--radius-sharp);
@@ -50,5 +50,5 @@ input[type="search"] {
 }
 
 .search-submit:hover {
-    background-color: var(--accent);
+    background-color: var(--lighting);
 }
