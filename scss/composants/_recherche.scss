@@ -1,25 +1,54 @@
 /* ----------------------------------
 _recherche.scss
 -----------------------------------*/
-/* ----------------------------------
-_recherche.scss
------------------------------------*/
 .navigation__recherche {
     font-family: var(--font-base);
     font-weight: 500;
     font-size: var(--font-short);
-    padding-right: 1rem;
+    padding-right: var(--spacing-thinnest);
 }
 
 aside {
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-thinnest);
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-thinner);
+    border: var(--border-slimmest) solid var(--darking);
+    border-radius: var(--radius-sharp);
+    padding: var(--spacing-thinnest);
+    background-color: var(--tertiary);
 }
 
 input[type="search"] {
-    padding: 5px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    font-family: var(--font-base); 
-    font-size: var(--font-short); 
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: var(--radius-sharp);
+    font-family: var(--font-base);
+    font-size: var(--font-short);
+    background-color: var(--secondary);
+    color: var(--primary);
+    outline: none;
+}
+
+.search-submit {
+    padding: 8px 12px;
+    font-size: var(--font-short);
+    font-weight: 600;
+    font-family: var(--font-base);
+    background-color: var(--darkering);
+    color: var(--lighting);
+    border: none;
+    border-radius: var(--radius-sharp);
+    cursor: pointer;
+    transition: background-color var(--duration-medium) var(--ease-in-out);
+}
+
+.search-submit:hover {
+    background-color: var(--accent);
 }
