@@ -32,6 +32,8 @@ Création des catégories pour chaque destination :
 ✅ Correction des problèmes d'affichage des pages d’archives par catégorie
 ✅ Correction des problèmes d'affichage en Destinations à contre-courant en scss
 ✅ En cours d’adaptation de mes styles SASS et de correction des erreurs d’intégration dans ma zone de recherche de ma barre de navigation.
+✅ Continuation des corrections des erreurs scss dans ma zone de recherche
+
 🛠 [EN COURS] 
 🔄 Ajustements de la page front-page.php
 🔄 Correction des problèmes d'affichage sur la page de résultats de recherche

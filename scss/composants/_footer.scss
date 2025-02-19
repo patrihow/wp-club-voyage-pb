@@ -1,75 +1,69 @@
-
-/* ----------------------------------
-_footer.scss
------------------------------------*/
-
 .pied-de-page {
-
-	display: flex;
-	padding: var(--spacing-thin);
-	align-items: center;
-    font-family: var(--font-base);
-    border-top: #BCC79D 1px solid;
-}
-.pied-de-page h2 {
-    text-align: center;
-    padding-bottom: 3rem;
-}
-
-.pied-de-page>nav>ul {
-	column-count: 4;
-    text-align: left;
-    
-}
-
-.pied-de-page>nav>ul {
-	margin: 0;
-}
-
-.pied-de-page>nav>ul>* {
-	display: inline-block;
-	min-width: 100%;
-}
-
-.pied-de-page>nav a {
-	display: inline-block;
-	padding: var(--spacing-nano) 0;
-    font-size: 1.5rem;
-}
-.pied-de-page>nav a:hover {
-    color: #F07450;
-}
-
-.pied-de-page>nav {
-	max-width: var(--dimension-small);
-	margin-right: var(--spacing-thin);
-}
-
-.pied-de-page>a {
-	display: flex;
-	flex-direction: column;
-	margin-left: auto;
-	align-items: center;
-}
-
-.pied-de-page>a>*+* {
-	margin-top: var(--spacing-thinnest);
-}
-.pied-de-page__legal {
     display: flex;
-    flex-direction: column;
-}
-.social-media ul {
-    list-style: none;
-    padding: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: var(--spacing-thin);
+    font-family: var(--font-base);
+    border-top: 1px solid #BCC79D;
+    background-color: var(--color-background, #fff);
+    
+    &__menu, &__social {
+        flex: 1 1 40%;
+        min-width: 250px;
+    }
+    
+    & h2 {
+        font-size: 1.5rem;
+        margin-bottom: var(--spacing-thin);
+    }
+
+    nav {
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-nano);
+            padding: 0;
+            list-style: none;
+            
+            li {
+                margin: 0;
+                
+                a {
+                    display: block;
+                    padding: 0.5rem 0;
+                    font-size: 1rem;
+                    text-decoration: none;
+                    color: var(--color-text, #333);
+                    
+                    &:hover {
+                        color: #F07450;
+                    }
+                }
+            }
+        }
+    }
 }
 
-.social-media li {
-    display: inline;
-    margin-right: 10px;
-}
-
-.social-media a {
-    text-decoration: none;
-    color: #333; 
+.social-media {
+    ul {
+        display: flex;
+        gap: var(--spacing-thin);
+        padding: 0;
+        list-style: none;
+        
+        li {
+            a {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                text-decoration: none;
+                color: #333;
+                
+                &:hover {
+                    color: #F07450;
+                }
+            }
+        }
+    }
 }

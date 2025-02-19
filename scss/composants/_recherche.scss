@@ -25,28 +25,29 @@ aside {
 input[type="search"] {
     flex: 1;
     padding: 8px;
-    border: none;
+    border: 1px solid var(--secondary);
     border-radius: var(--radius-sharp);
     font-family: var(--font-base);
     font-size: var(--font-short);
     background-color: var(--color-plus-clair);
     color: var(--primary);
     outline: none;
+    min-width: 400px;
 }
 
 .search-submit {
     padding: 8px 12px;
+    border: none;
     font-size: var(--font-short);
     font-weight: 600;
     font-family: var(--font-base);
     background-color: var(--accent);
-    color: white;
-    border: none;
+    color: white; 
     border-radius: var(--radius-sharp);
     cursor: pointer;
     transition: background-color var(--duration-medium) var(--ease-in-out);
 }
 
 .search-submit:hover {
-    background-color: var(--lighting);
+    background-color: var(--primary);
 }
