@@ -16,6 +16,8 @@ Création des catégories pour chaque destination :
 - **Zen**  
 - **Pleine nature**  
 
+Mon site sur WP est ici: https://gftnth00.mywhc.ca/33w3/
+
 ---
 
 ## 📌 **Historique des commits**  Plan de travail
@@ -33,7 +35,7 @@ Création des catégories pour chaque destination :
 ✅ Correction des problèmes d'affichage en Destinations à contre-courant en scss
 ✅ En cours d’adaptation de mes styles SASS et de correction des erreurs d’intégration dans ma zone de recherche de ma barre de navigation.
 ✅ Continuation des corrections des erreurs scss dans ma zone de recherche
-
+✅ Correction des styles _footer.scss et mon footer.php
 🛠 [EN COURS] 
 🔄 Ajustements de la page front-page.php
 🔄 Correction des problèmes d'affichage sur la page de résultats de recherche

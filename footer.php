@@ -9,9 +9,16 @@
         ));
         ?>
     </nav>
+
+
     
     <div class="pied-de-page__social">
-        <h2>Suivez-nous</h2>
+        <h2>Coordonnées du club </h2>
+        <ul>
+            <li>Notre adresse: 123 Av. M. Beauregard</li>
+            <li>Téléphone: 01 800 0000</li>
+            <li>Courriel: info@clubdevoyage.com</li>
+        </ul>
         <ul>
             <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
             <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>

@@ -11,13 +11,17 @@
 <main class="contenu">
     <section class="contenu__liens full-bleed">
         <h2 class="contenu__titre">À la une</h2>
+         <!-- Galerie des images -->
         <p class="contenu__textes">Nos dernières idées de voyages sur-mesure 100 % personnalisables</p>
-        <ul>
-            <li><h3><a href="#">Italie</a></h3></li>
-            <li><h3><a href="#">Japon</a></h3></li>
-            <li><h3><a href="#">Brésil</a></h3></li>
-            <li><h3><a href="#">Canada</a></h3></li>
-        </ul>
+        <div class="galerie-images">
+        <figure class="wp-block-image size-large"><img src="https://gftnth00.mywhc.ca/33w3/wp-content/uploads/2025/02/pexels-suju-28540673-1024x683.jpg" alt="" class="wp-image-186"/></figure>
+        <figure class="wp-block-image size-large"><img src="https://gftnth00.mywhc.ca/33w3/wp-content/uploads/2025/02/pexels-suju-28540745-1024x576.jpg" alt="" class="wp-image-187"/></figure>
+        <figure class="wp-block-image size-large"><img src="https://gftnth00.mywhc.ca/33w3/wp-content/uploads/2025/02/pexels-iloveswitzerland-58496263-7938506-1024x682.jpg" alt="" class="wp-image-188"/></figure>
+        <figure class="wp-block-image size-large"><img src="https://gftnth00.mywhc.ca/33w3/wp-content/uploads/2025/02/pexels-sami-1479628-6094326-819x1024.jpg" alt="" class="wp-image-189"/></figure>
+        <figure class="wp-block-image size-large"><img src="https://gftnth00.mywhc.ca/33w3/wp-content/uploads/2025/02/pexels-gropiuslab-6997529-1024x678.jpg" alt="" class="wp-image-183"/></figure>
+        <figure class="wp-block-image size-large"><img src="https://gftnth00.mywhc.ca/33w3/wp-content/uploads/2025/02/pexels-duc-tinh-ngo-2147637857-30727627-1024x684.jpg" alt="" class="wp-image-181"/></figure>
+        
+        </div>
     </section>
 
     <article class="banner full-bleed">
@@ -46,28 +50,9 @@
         </div>
     </section>
     
-    <!-- Galerie des images -->
     
-<section class="cartes full-bleed">
-    <h2>Notre Galerie</h2>
-    <p>En couple ou en famille ? Pour un trekking ou un safari ? Plutôt culture ou aventure ? Découvrez plus de 8000 idées de voyage sélectionnées par nos agences locales spécialisées.</p>
-    <div class="grille"> 
-    <?php
-    $galerie_id = 83; 
-
     
-    $galerie_page = get_post($galerie_id); 
 
-    if ($galerie_page) {
-        
-        
-        echo apply_filters('the_content', $galerie_page->post_content);
-    } else {
-        echo '<h2>Galerie non trouvée</h2>'; 
-    }
-    ?>
-    </div>
-</section>
 </section>
 
 </main>

@@ -15,6 +15,7 @@
     <span>Club de voyage</span>
     <?php
     wp_nav_menu(array(
+        'menu' => 'principal',
         'theme_location' => 'main-menu',
         'container' => false,
     ));
