@@ -51,9 +51,6 @@ body > * {
 body > :is(header, footer) {
   padding: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
 body > footer {
@@ -179,6 +176,11 @@ _navigation.scss
   border: var(--border-slimmest) solid var(--veil);
 }
 
+.navigation a {
+  text-decoration: none; /* Eliminar el subrayado */
+  color: var(--primary); /* Asegúrate de que el color sea el que deseas */
+}
+
 .navigation > a:hover,
 .navigation a[href]:hover {
   color: var(--accent);
@@ -266,17 +268,15 @@ input[type=search] {
   background-color: var(--primary);
 }
 
-/* ----------------------------------
-_entete.scss
------------------------------------*/
 .entete {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   position: relative;
   font-family: var(--font-base);
   text-align: center;
-  height: 70vh;
+  min-height: 70vh;
   margin: 0;
   mix-blend-mode: multiply;
   background-color: #8c8d8c;
@@ -294,12 +294,12 @@ _entete.scss
 }
 
 .entete__titre {
-  position: absolute;
+  position: relative;
   color: #fff;
   z-index: 10;
   text-transform: uppercase;
   backface-visibility: hidden;
-  margin-top: 20rem;
+  margin-top: 0;
 }
 
 .entete__titre-main {
@@ -487,15 +487,13 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  padding: var(--spacing-thin);
   font-family: var(--font-base);
   border-top: 1px solid #BCC79D;
   background-color: var(--color-background, #fff);
+  padding: 3rem 4rem;
 }
-.pied-de-page__menu, .pied-de-page__contact, .pied-de-page__social, .pied-de-page__legal {
-  flex: 1 1 30%;
-  min-width: 250px;
-  margin-bottom: var(--spacing-thin);
+.pied-de-page__menu, .pied-de-page__contact, .pied-de-page__social {
+  min-width: 300px;
 }
 .pied-de-page h2 {
   font-size: 1.5rem;
@@ -538,9 +536,31 @@ figure img {
   border-radius: 8px;
   width: 100%;
   height: auto;
-  min-height: 300px;
+  min-height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.button {
+  background-color: var(--darking);
+  color: white;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: var(--secondary);
+  color: var(--veil);
+}
+
+.navigation-galerie {
+  margin-top: 30px;
 }
 
 .newsletter {

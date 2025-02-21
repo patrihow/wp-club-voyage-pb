@@ -14,6 +14,28 @@ figure img {
     border-radius: 8px;
     width: 100%;
     height: auto; 
-    min-height: 300px;
+    min-height: 400px;
     object-fit: cover;
+}
+
+.button {
+    background-color: var(--darking); 
+    color: white; 
+    font-weight: 600; 
+    padding: 1rem 2rem; 
+    font-size: 1.3rem; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+    margin-top: 20px; 
+}
+
+.button:hover {
+    background-color: var(--secondary);
+    color: var(--veil); 
+}
+
+.navigation-galerie {
+    margin-top: 30px;
 }

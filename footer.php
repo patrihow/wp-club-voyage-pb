@@ -26,10 +26,7 @@
         </div>
     </div>
 
-    <div class="pied-de-page__legal full-bleed">
-        <p>&copy; <?php echo date("Y"); ?> Club de Voyage. Tous droits réservés.</p>
-        <p><a href="#">Mentions légales</a></p>
-    </div>
+
 
     <?php wp_footer(); ?>
 </footer>

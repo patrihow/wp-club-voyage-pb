@@ -9,20 +9,31 @@
 </header>
 
 <main class="contenu">
-    <section class="contenu__liens full-bleed">
-        <h2 class="contenu__titre">À la une</h2>
-         <!-- Galerie des images -->
-        <p class="contenu__textes">Nos dernières idées de voyages sur-mesure 100 % personnalisables</p>
-        <div class="galerie-images">
-        <figure class="wp-block-image size-large"><img src="https://gftnth00.mywhc.ca/33w3/wp-content/uploads/2025/02/pexels-suju-28540673-1024x683.jpg" alt="" class="wp-image-186"/></figure>
-        <figure class="wp-block-image size-large"><img src="https://gftnth00.mywhc.ca/33w3/wp-content/uploads/2025/02/pexels-suju-28540745-1024x576.jpg" alt="" class="wp-image-187"/></figure>
-        <figure class="wp-block-image size-large"><img src="https://gftnth00.mywhc.ca/33w3/wp-content/uploads/2025/02/pexels-iloveswitzerland-58496263-7938506-1024x682.jpg" alt="" class="wp-image-188"/></figure>
+<section class="contenu__liens full-bleed">
+    <h2 class="contenu__titre">À la une</h2>
+    <p class="contenu__textes">Nos dernières idées de voyages sur-mesure 100 % personnalisables</p>
+    <div class="galerie-images">
+        <?php 
         
-        <figure class="wp-block-image size-large"><img src="https://gftnth00.mywhc.ca/33w3/wp-content/uploads/2025/02/pexels-gropiuslab-6997529-1024x678.jpg" alt="" class="wp-image-183"/></figure>
+        $destination = array(
+            "https://gftnth00.mywhc.ca/33w3/wp-content/uploads/2025/02/pexels-suju-28540673-1024x683.jpg",
+            "https://gftnth00.mywhc.ca/33w3/wp-content/uploads/2025/02/pexels-suju-28540745-1024x576.jpg",
+            "https://gftnth00.mywhc.ca/33w3/wp-content/uploads/2025/02/pexels-iloveswitzerland-58496263-7938506-1024x682.jpg",
+            "https://gftnth00.mywhc.ca/33w3/wp-content/uploads/2025/02/pexels-gropiuslab-6997529-1024x678.jpg"
+        );
 
-        
-        </div>
-    </section>
+        foreach ($destination as $destination) {
+            echo '<figure class="wp-block-image size-large"><img src="' . $destination . '" alt="" class="wp-image"/></figure>';
+        }
+        ?>
+
+    </div>
+    <div class="navigation-galerie">
+    <a class="button" href="https://gftnth00.mywhc.ca/33w3/?page_id=162">Voir notre galerie</a>
+    </div>
+
+</section>
+
 
     <section class="cartes full-bleed">
         <h2>Destinations à contre-courant</h2>

@@ -3,15 +3,13 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    padding: var(--spacing-thin);
     font-family: var(--font-base);
     border-top: 1px solid #BCC79D;
     background-color: var(--color-background, #fff);
+    padding: 3rem 4rem;
 
-    &__menu, &__contact, &__social, &__legal {
-        flex: 1 1 30%; 
-        min-width: 250px;
-        margin-bottom: var(--spacing-thin); 
+    &__menu, &__contact, &__social {
+        min-width: 300px;
     }
 
     h2 {
