@@ -1,6 +1,6 @@
 <footer class="pied-de-page">
-    <nav class="pied-de-page__menu">
-        <h2>Information additionnelle</h2>
+    <div class="pied-de-page__menu">
+        <h2>Informations supplémentaires</h2>
         <?php
         wp_nav_menu(array(
             'theme_location' => 'footer-menu',
@@ -8,23 +8,28 @@
             'menu_class' => 'footer-menu',
         ));
         ?>
-    </nav>
-
-
-    
-    <div class="pied-de-page__social">
-        <h2>Coordonnées du club </h2>
-        <ul>
-            <li>Notre adresse: 123 Av. M. Beauregard</li>
-            <li>Téléphone: 01 800 0000</li>
-            <li>Courriel: info@clubdevoyage.com</li>
-        </ul>
-        <ul>
-            <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
-            <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
-        </ul>
     </div>
-    
+
+    <div class="pied-de-page__contact">
+        <h2>Coordonnées du club</h2>
+        <p>Notre adresse : 123 Av. M. Beauregard</p>
+        <p>Téléphone : 01 800 0000</p>
+        <p>Courriel : <a href="mailto:info@clubdevoyage.com">info@clubdevoyage.com</a></p>
+    </div>
+
+    <div class="pied-de-page__social">
+        <h2>Réseaux sociaux</h2>
+        <div class="pied-de-page__social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+            <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+            <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+        </div>
+    </div>
+
+    <div class="pied-de-page__legal full-bleed">
+        <p>&copy; <?php echo date("Y"); ?> Club de Voyage. Tous droits réservés.</p>
+        <p><a href="#">Mentions légales</a></p>
+    </div>
+
     <?php wp_footer(); ?>
 </footer>

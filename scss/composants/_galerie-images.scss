@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
     margin-top: 20px;
+    gap: 20px;
 }
 
 figure {
@@ -13,5 +14,6 @@ figure img {
     border-radius: 8px;
     width: 100%;
     height: auto; 
+    min-height: 300px;
     object-fit: cover;
 }

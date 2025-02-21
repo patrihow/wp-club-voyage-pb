@@ -17,18 +17,12 @@
         <figure class="wp-block-image size-large"><img src="https://gftnth00.mywhc.ca/33w3/wp-content/uploads/2025/02/pexels-suju-28540673-1024x683.jpg" alt="" class="wp-image-186"/></figure>
         <figure class="wp-block-image size-large"><img src="https://gftnth00.mywhc.ca/33w3/wp-content/uploads/2025/02/pexels-suju-28540745-1024x576.jpg" alt="" class="wp-image-187"/></figure>
         <figure class="wp-block-image size-large"><img src="https://gftnth00.mywhc.ca/33w3/wp-content/uploads/2025/02/pexels-iloveswitzerland-58496263-7938506-1024x682.jpg" alt="" class="wp-image-188"/></figure>
-        <figure class="wp-block-image size-large"><img src="https://gftnth00.mywhc.ca/33w3/wp-content/uploads/2025/02/pexels-sami-1479628-6094326-819x1024.jpg" alt="" class="wp-image-189"/></figure>
+        
         <figure class="wp-block-image size-large"><img src="https://gftnth00.mywhc.ca/33w3/wp-content/uploads/2025/02/pexels-gropiuslab-6997529-1024x678.jpg" alt="" class="wp-image-183"/></figure>
-        <figure class="wp-block-image size-large"><img src="https://gftnth00.mywhc.ca/33w3/wp-content/uploads/2025/02/pexels-duc-tinh-ngo-2147637857-30727627-1024x684.jpg" alt="" class="wp-image-181"/></figure>
+
         
         </div>
     </section>
-
-    <article class="banner full-bleed">
-        <h2>L’esprit du club de voyage</h2>
-        <p>Voyager librement, selon vos envies, vos idées et vos passions.</p>
-        <a href="#">Rejoignez-nous</a>
-    </article>
 
     <section class="cartes full-bleed">
         <h2>Destinations à contre-courant</h2>
@@ -50,6 +44,14 @@
         </div>
     </section>
     
+    <article class="newsletter full-bleed">
+        <h2>Inscrivez-vous à notre infolettre</h2>
+        <p>Pour recevoir les dernières promotions et nouvelles de notre club de voyage</p>
+    <form action="#" method="post">
+        <input type="email" placeholder="Votre adresse e-mail" required>
+        <button type="submit">S'inscrire</button>
+    </form>
+    </article>
     
     
 

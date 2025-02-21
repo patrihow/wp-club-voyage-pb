@@ -80,3 +80,12 @@ strong {
 .full-bleed {
 	grid-column: 1/-1;
 }
+ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+ul::marker {
+    content: none; 
+}
